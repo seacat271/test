@@ -6,4 +6,4 @@ const ShopCard = () => {
   );
 };
 
-export default 
+export default ShopCard;
