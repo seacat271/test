@@ -1,18 +1,19 @@
 const UserForm = () => {
   return (
     <div>
-      <label>
-        <input name="name" />
-      </label>
-      <label>
-        <input name="email" />
-      </label>
-      <label>
-        <input name="phone" />
-      </label>
-      <label>
-        <input name="address" />
-      </label>
+      <form action="/" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" />
+
+        <label for="email">E-mail</label>
+        <input type="text" name="email" />
+
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" />
+
+        <label for="address">Address</label>
+        <input type="text" name="address" />
+      </form>
     </div>
   );
 };
